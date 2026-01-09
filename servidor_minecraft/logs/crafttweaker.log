@@ -1,0 +1,22 @@
+[15:55:58.440][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production server modded with platform Forge
+[15:55:58.473][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[15:55:58.618][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[15:55:58.625][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[15:55:58.628][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin refurbished_furniture:plugin
+[15:55:59.811][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[15:55:59.812][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.59'
+[15:55:59.812][INFO][CraftTweaker]: - 'refurbished_furniture' at version '1.0.20'
+[15:56:02.081][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[15:56:03.134][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[15:56:03.214][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[15:56:03.437][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[15:56:15.395][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[15:56:15.435][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[15:56:15.454][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[15:56:15.471][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[15:56:18.787][INFO][CraftTweaker]: crafttweaker.reload.start
+[15:56:18.790][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[15:56:18.820][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[15:56:19.288][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[15:56:19.301][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[15:56:19.303][INFO][CraftTweaker]: crafttweaker.reload.complete

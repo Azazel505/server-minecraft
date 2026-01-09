@@ -1,0 +1,574 @@
+[09Jan2026 15:55:36.249] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[09Jan2026 15:55:36.254] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[09Jan2026 15:55:44.463] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[09Jan2026 15:55:44.569] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-minecraft/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[09Jan2026 15:55:44.875] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/server-minecraft/servidor_minecraft/mods} returned 1 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[09Jan2026 15:55:45.142] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-minecraft/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[09Jan2026 15:55:45.144] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-minecraft/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[09Jan2026 15:55:45.145] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-minecraft/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[09Jan2026 15:55:45.146] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/server-minecraft/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[09Jan2026 15:55:45.576] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 16 dependencies adding them to mods collection
+[09Jan2026 15:55:48.214] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[09Jan2026 15:55:48.271] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.mixins.json does not specify "minVersion" property
+[09Jan2026 15:55:48.273] [main/ERROR] [mixin/]: Mixin config fabric-data-attachment-api-v1.client.mixins.json does not specify "minVersion" property
+[09Jan2026 15:55:48.424] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [org.tlauncher.MixinConnector]
+[09Jan2026 15:55:48.427] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[09Jan2026 15:55:48.702] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 120 options available, 0 override(s) found
+[09Jan2026 15:55:50.218] [main/WARN] [org.dimdev.vanillafix.MixinPlugin/]: Can't get value of: "fixRecipeBookIngredientsWithTags" defaulting to false
+[09Jan2026 15:55:50.218] [main/WARN] [org.dimdev.vanillafix.MixinPlugin/]: Not applying "org.dimdev.vanillafix.bugs.mixins.PlayerInventoryMixin" mixin
+[09Jan2026 15:55:50.573] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/LevelRenderer for invalid dist DEDICATED_SERVER
+[09Jan2026 15:55:50.574] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/LevelRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/LevelRenderer for invalid dist DEDICATED_SERVER)
+[09Jan2026 15:55:50.574] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.LevelRenderer was not found accessories-common.mixins.json:LevelRendererAccessor
+[09Jan2026 15:55:50.758] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[09Jan2026 15:55:50.758] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[09Jan2026 15:55:50.759] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found tlskincape-mixins.json:MixinAbstractPlayer
+[09Jan2026 15:55:50.760] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[09Jan2026 15:55:50.760] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[09Jan2026 15:55:50.760] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found tlskincape-mixins.json:MixinMainMenu
+[09Jan2026 15:55:50.762] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/model/PlayerModel (java.lang.ClassNotFoundException: net.minecraft.client.model.PlayerModel)
+[09Jan2026 15:55:50.762] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.model.PlayerModel was not found tlskincape-mixins.json:MixinPlayerModel
+[09Jan2026 15:55:51.020] [main/ERROR] [mixin/]: accessories-common.mixins.json:ContainerMixin: Interface mixin contains a non-public method! Found extendHasAnyMatching(Ljava/util/function/Predicate;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V in accessories-common.mixins.json:ContainerMixin
+org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinException: Interface mixin contains a non-public method! Found extendHasAnyMatching(Ljava/util/function/Predicate;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V in accessories-common.mixins.json:ContainerMixin
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorInterface.prepareMethod(MixinPreProcessorInterface.java:65) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepare(MixinPreProcessorStandard.java:187) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:322) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.validate(MixinInfo.java:913) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:801) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:567) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar%2355!/:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:637) ~[?:?]
+	at java.lang.Class.forName(Class.java:547) ~[?:?]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.lambda$updateModuleReads$1(ImmediateWindowHandler.java:145) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:1.0]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.updateModuleReads(ImmediateWindowHandler.java:145) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:1.0]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:71) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:1.0]
+	at net.minecraftforge.fml.loading.FMLLoader.beforeStart(FMLLoader.java:216) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:1.0]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:92) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[09Jan2026 15:55:51.077] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[09Jan2026 15:55:54.378] [main/WARN] [mixin/]: @Final field f_31427_:[I in mixins.epicfight.json:common.MixinWitherBoss should be final
+[09Jan2026 15:55:54.378] [main/WARN] [mixin/]: @Final field f_31428_:[I in mixins.epicfight.json:common.MixinWitherBoss should be final
+[09Jan2026 15:55:55.175] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on accessories-common.mixins.json:NbtCompoundMixin::handler$zjg000$adjustCheckForListVariants exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[09Jan2026 15:55:55.968] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[09Jan2026 15:55:55.968] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[09Jan2026 15:55:55.968] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[09Jan2026 15:55:55.968] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.LivingEntity from class yesman.epicfight.world.capabilities.entitypatch.LivingEntityPatch
+[09Jan2026 15:55:56.027] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zkl000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[09Jan2026 15:55:57.698] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[09Jan2026 15:55:57.722] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[09Jan2026 15:55:57.868] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: GeckolibCompat
+[09Jan2026 15:55:57.875] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compat: IceAndFireCompat
+[09Jan2026 15:55:58.264] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[09Jan2026 15:55:58.265] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[09Jan2026 15:55:58.812] [modloading-worker-0/ERROR] [mixin/]: Injection error: LVT in net/minecraft/world/entity/npc/VillagerTrades$EmeraldsForVillagerTypeItem::m_213663_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer; has incompatible changes at opcode 34 in callback fabric-object-builder-v1.mixins.json:TradeOffersTypeAwareBuyForOneEmeraldFactoryMixin->@Inject::failOnNullItem(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/item/ItemStack;)V.
+ Expected: [Lnet/minecraft/world/item/ItemStack;]
+    Found: [Lnet/minecraft/world/item/Item;]
+Available: [Lnet/minecraft/world/item/Item;, Lnet/minecraft/world/item/ItemStack;]
+[09Jan2026 15:55:59.348] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[09Jan2026 15:55:59.352] [modloading-worker-0/INFO] [libIPN/]: [libIPN] libIPN - init in Kotlin
+[09Jan2026 15:55:59.355] [modloading-worker-0/INFO] [noisium/]: Loading Noisium.
+[09Jan2026 15:55:59.406] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
+[09Jan2026 15:55:59.530] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[09Jan2026 15:55:59.543] [modloading-worker-0/INFO] [JamLib/]: Initializing JamLib on Forge
+[09Jan2026 15:55:59.618] [modloading-worker-0/INFO] [JamLib/]: Updated config file at /workspaces/server-minecraft/servidor_minecraft/config/rightclickharvest.json5
+[09Jan2026 15:55:59.618] [modloading-worker-0/INFO] [Right Click Harvest/]: Initializing Right Click Harvest on FORGE
+[09Jan2026 15:55:59.636] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[09Jan2026 15:56:00.651] [modloading-worker-0/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered events
+[09Jan2026 15:56:01.833] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class yesman.epicfight.world.capabilities.entitypatch.player.PlayerPatch
+[09Jan2026 15:56:01.839] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from class reascer.wom.world.entity.mob.EnderHand
+[09Jan2026 15:56:01.840] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.TamableAnimal from class reascer.wom.world.entity.mob.TargetingHelper
+[09Jan2026 15:56:01.851] [main/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Attached entity attributes
+[09Jan2026 15:56:01.874] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Jan2026 15:56:01.875] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Jan2026 15:56:01.875] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Jan2026 15:56:01.875] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Jan2026 15:56:01.875] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Jan2026 15:56:01.876] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Jan2026 15:56:01.876] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Jan2026 15:56:01.876] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Jan2026 15:56:01.876] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.boss.wither.WitherBoss from class yesman.epicfight.world.capabilities.entitypatch.boss.WitherPatch
+[09Jan2026 15:56:01.970] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/server-minecraft/servidor_minecraft/config/effortlessbuilding-common.toml is not correct. Correcting
+[09Jan2026 15:56:01.970] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Reach was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jan2026 15:56:01.971] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Reach.reachCreative was corrected from null to its default, 200. 
+[09Jan2026 15:56:01.971] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Reach.reachLevel0 was corrected from null to its default, 0. 
+[09Jan2026 15:56:01.971] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Reach.reachLevel1 was corrected from null to its default, 8. 
+[09Jan2026 15:56:01.971] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Reach.reachLevel2 was corrected from null to its default, 16. 
+[09Jan2026 15:56:01.971] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Reach.reachLevel3 was corrected from null to its default, 32. 
+[09Jan2026 15:56:01.972] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxBlocksPlacedAtOnce was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jan2026 15:56:01.972] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxBlocksPlacedAtOnce.maxBlocksPlacedAtOnceCreative was corrected from null to its default, 10000. 
+[09Jan2026 15:56:01.972] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxBlocksPlacedAtOnce.maxBlocksPlacedAtOnceLevel0 was corrected from null to its default, 128. 
+[09Jan2026 15:56:01.972] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxBlocksPlacedAtOnce.maxBlocksPlacedAtOnceLevel1 was corrected from null to its default, 192. 
+[09Jan2026 15:56:01.972] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxBlocksPlacedAtOnce.maxBlocksPlacedAtOnceLevel2 was corrected from null to its default, 320. 
+[09Jan2026 15:56:01.972] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxBlocksPlacedAtOnce.maxBlocksPlacedAtOnceLevel3 was corrected from null to its default, 640. 
+[09Jan2026 15:56:01.973] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxBlocksPerAxis was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jan2026 15:56:01.973] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxBlocksPerAxis.maxBlocksPerAxisCreative was corrected from null to its default, 1000. 
+[09Jan2026 15:56:01.973] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxBlocksPerAxis.maxBlocksPerAxisLevel0 was corrected from null to its default, 8. 
+[09Jan2026 15:56:01.973] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxBlocksPerAxis.maxBlocksPerAxisLevel1 was corrected from null to its default, 12. 
+[09Jan2026 15:56:01.974] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxBlocksPerAxis.maxBlocksPerAxisLevel2 was corrected from null to its default, 16. 
+[09Jan2026 15:56:01.974] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxBlocksPerAxis.maxBlocksPerAxisLevel3 was corrected from null to its default, 20. 
+[09Jan2026 15:56:01.974] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxMirrorRadius was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jan2026 15:56:01.975] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxMirrorRadius.maxMirrorRadiusCreative was corrected from null to its default, 200. 
+[09Jan2026 15:56:01.975] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxMirrorRadius.maxMirrorRadiusLevel0 was corrected from null to its default, 16. 
+[09Jan2026 15:56:01.975] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxMirrorRadius.maxMirrorRadiusLevel1 was corrected from null to its default, 32. 
+[09Jan2026 15:56:01.975] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxMirrorRadius.maxMirrorRadiusLevel2 was corrected from null to its default, 48. 
+[09Jan2026 15:56:01.975] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MaxMirrorRadius.maxMirrorRadiusLevel3 was corrected from null to its default, 64. 
+[09Jan2026 15:56:02.079] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 20
+[09Jan2026 15:56:02.208] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[09Jan2026 15:56:02.227] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[09Jan2026 15:56:02.248] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[09Jan2026 15:56:02.248] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[09Jan2026 15:56:02.249] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[09Jan2026 15:56:02.458] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:03.083] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA_OUTDATED Current: 12.0.0.1 Target: 12.0.0.4
+[09Jan2026 15:56:03.083] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[09Jan2026 15:56:03.225] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[09Jan2026 15:56:03.227] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
+[09Jan2026 15:56:03.421] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:03.439] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.4.0.jar%23236!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.4.0.jar%23236!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[09Jan2026 15:56:03.445] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.20.1
+[09Jan2026 15:56:03.547] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crafttweaker] Found status: BETA Current: 14.0.59 Target: 14.0.59
+[09Jan2026 15:56:03.548] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[09Jan2026 15:56:03.692] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.4.0 Target: 47.4.10
+[09Jan2026 15:56:03.692] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[09Jan2026 15:56:03.695] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:03.877] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:04.067] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:04.226] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.6.10 Target: 1.20.1-2.6.11
+[09Jan2026 15:56:04.232] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [divinerpg] Starting version check at https://raw.githubusercontent.com/DivineRPG/DivineRPG-Assets/main/divinerpg_update.json
+[09Jan2026 15:56:04.298] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [divinerpg] Found status: OUTDATED Current: 1.10.7.5 Target: 1.10.7.6
+[09Jan2026 15:56:04.300] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:04.452] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:04.628] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:04.737] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:04.838] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:04.938] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:05.122] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:05.260] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:05.461] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:05.600] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:05.696] [modloading-worker-0/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:05.805] [modloading-worker-0/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered triggers
+[09Jan2026 15:56:05.881] [main/INFO] [journeymap/]: Initializing Packet Registries
+[09Jan2026 15:56:05.914] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[09Jan2026 15:56:05.914] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[09Jan2026 15:56:05.914] [main/INFO] [terrablender/]: Registered region yungscavebiomes:overworld to index 1 for type OVERWORLD
+[09Jan2026 15:56:06.024] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[09Jan2026 15:56:06.127] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at dev.quarris.enigmaticgraves.compat.WailaCompat
+[09Jan2026 15:56:06.140] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[09Jan2026 15:56:06.160] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[09Jan2026 15:56:06.166] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[09Jan2026 15:56:09.056] [main/INFO] [epicfight/]: Data keys [epicfight:combo_counter, epicfight:basic_attack_active] for epicfight:basic_attack
+[09Jan2026 15:56:09.056] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, epicfight:penalty] for epicfight:guard
+[09Jan2026 15:56:09.057] [main/INFO] [epicfight/]: Data keys [epicfight:parry_motion_counter, epicfight:penalty_restore_counter, epicfight:penalty, epicfight:last_active] for epicfight:parrying
+[09Jan2026 15:56:09.057] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, epicfight:penalty] for epicfight:impact_guard
+[09Jan2026 15:56:09.057] [main/INFO] [epicfight/]: Data keys [epicfight:resisting_damage_type, epicfight:stacks, epicfight:tick_record] for epicfight:adaptive_skin
+[09Jan2026 15:56:09.057] [main/INFO] [epicfight/]: Data keys [epicfight:tick_record] for epicfight:adrenaline_fiend
+[09Jan2026 15:56:09.058] [main/INFO] [epicfight/]: Data keys [epicfight:stacks, epicfight:entity_id] for epicfight:bonebreaker
+[09Jan2026 15:56:09.058] [main/INFO] [epicfight/]: Data keys [epicfight:entity_id, epicfight:tick_record] for epicfight:vengeance
+[09Jan2026 15:56:09.058] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:fall_distance] for epicfight:meteor_slam
+[09Jan2026 15:56:09.058] [main/INFO] [epicfight/]: Data keys [epicfight:stacks] for epicfight:revelation
+[09Jan2026 15:56:09.058] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall] for epicfight:demolition_leap
+[09Jan2026 15:56:09.059] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:jump_count, epicfight:jump_key_pressed_last_tick] for epicfight:phantom_ascent
+[09Jan2026 15:56:09.059] [main/INFO] [epicfight/]: Data keys [epicfight:last_hit_count] for epicfight:grasping_spire
+[09Jan2026 15:56:09.059] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu_passive
+[09Jan2026 15:56:09.060] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu
+[09Jan2026 15:56:09.060] [main/INFO] [epicfight/]: Data keys [epicfight:combo_counter] for epicfight:blade_rush
+[09Jan2026 15:56:09.060] [main/INFO] [epicfight/]: Data keys [epicfight:thrown_trident_entity_id] for epicfight:everlasting_allegiance
+[09Jan2026 15:56:09.061] [main/INFO] [epicfight/]: Data keys [wom:target_id] for wom:ender_obscuris
+[09Jan2026 15:56:09.061] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:timer_refresh, wom:dodge] for wom:dodge_master
+[09Jan2026 15:56:09.061] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:registered_position, wom:timer, wom:timer_refresh, wom:dodge, wom:active, wom:registered_health] for wom:time_travel
+[09Jan2026 15:56:09.061] [main/INFO] [epicfight/]: Data keys [wom:cooldown] for wom:punishment_kick
+[09Jan2026 15:56:09.062] [main/INFO] [epicfight/]: Data keys [wom:parrying, epicfight:penalty_restore_counter, epicfight:penalty, wom:consumprion_value, wom:last_active] for wom:counter_attack
+[09Jan2026 15:56:09.062] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:timer, wom:charge, wom:timer_refresh, wom:holding_stance, epicfight:penalty_restore_counter, epicfight:penalty, wom:vengence_duration, wom:consumprion_value] for wom:vengeful_parry
+[09Jan2026 15:56:09.062] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:parrying, wom:charge, epicfight:penalty_restore_counter, epicfight:penalty] for wom:perfect_bulwark
+[09Jan2026 15:56:09.062] [main/INFO] [epicfight/]: Data keys [wom:charge, wom:cycle] for wom:soul_protection
+[09Jan2026 15:56:09.062] [main/INFO] [epicfight/]: Data keys [wom:charge, wom:cycle] for wom:shulker_cloak
+[09Jan2026 15:56:09.062] [main/INFO] [epicfight/]: Data keys [wom:timer, epicfight:penalty_restore_counter, epicfight:penalty, wom:active] for wom:buster_parade
+[09Jan2026 15:56:09.063] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:duree, wom:timer_refresh, wom:active] for wom:pain_anticipation
+[09Jan2026 15:56:09.063] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:duree, wom:timer_refresh, wom:active] for wom:latent_retribution
+[09Jan2026 15:56:09.063] [main/INFO] [epicfight/]: Data keys [wom:power, wom:rate] for wom:critical_knowledge
+[09Jan2026 15:56:09.063] [main/INFO] [epicfight/]: Data keys [wom:max_shield, wom:cooldown, wom:recovery_rate] for wom:heart_shield
+[09Jan2026 15:56:09.063] [main/INFO] [epicfight/]: Data keys [wom:step, wom:saved_elapsed_time, wom:melody_index] for wom:dancing_blade
+[09Jan2026 15:56:09.063] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:duree, wom:timer_refresh, wom:stage, wom:active, wom:cycle] for wom:meditation
+[09Jan2026 15:56:09.064] [main/INFO] [epicfight/]: Data keys [wom:cooldown] for wom:dopamine
+[09Jan2026 15:56:09.064] [main/INFO] [epicfight/]: Data keys [wom:last_active] for wom:manipulator
+[09Jan2026 15:56:09.064] [main/INFO] [epicfight/]: Data keys [wom:power, wom:timer, wom:rate, wom:stack] for wom:lethal_focus
+[09Jan2026 15:56:09.064] [main/INFO] [epicfight/]: Data keys [wom:wall_running, wom:timer, wom:jump_key_up, wom:timer_refresh, wom:angle, wom:wall_glide] for wom:spider_techniques
+[09Jan2026 15:56:09.064] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:diving, wom:jump_key_up, wom:mermaid_movement, wom:consumprion_value, wom:water_dashing, wom:crawling] for wom:aqua_maneuvre
+[09Jan2026 15:56:09.064] [main/INFO] [epicfight/]: Data keys [wom:verso, wom:wall_running, wom:timer, wom:buffing, wom:stage, wom:active, wom:consumprion_value, wom:wall_glide] for wom:natural_sprinter
+[09Jan2026 15:56:09.064] [main/INFO] [epicfight/]: Data keys [wom:timer] for wom:lunatic_vivacity
+[09Jan2026 15:56:09.065] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:registered_health, wom:consumprion_value] for wom:voodoo_magic
+[09Jan2026 15:56:09.065] [main/INFO] [epicfight/]: Data keys [wom:target_distance, wom:target_id] for wom:back_and_forth
+[09Jan2026 15:56:09.065] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:combo] for wom:shooting_style
+[09Jan2026 15:56:09.065] [main/INFO] [epicfight/]: Data keys [wom:timer] for wom:proximity_exploiter
+[09Jan2026 15:56:09.065] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:stack] for wom:all_eyes_on_you
+[09Jan2026 15:56:09.065] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:stack] for wom:all_eyes_on_me
+[09Jan2026 15:56:09.065] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:timer] for wom:avatar_of_might
+[09Jan2026 15:56:09.066] [main/INFO] [epicfight/]: Data keys [wom:attacks, wom:active, wom:stack] for wom:agony_plunge
+[09Jan2026 15:56:09.066] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:charging_time, wom:saved_charge, wom:timer_refresh, wom:charged_attack, wom:charged, wom:active, wom:charging, wom:movespeed] for wom:torment_passive
+[09Jan2026 15:56:09.066] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:timer_refresh, wom:active] for wom:true_berserk
+[09Jan2026 15:56:09.066] [main/INFO] [epicfight/]: Data keys [wom:stack] for wom:herrscher_passive
+[09Jan2026 15:56:09.066] [main/INFO] [epicfight/]: Data keys [wom:verso, wom:expiation, wom:timer, wom:buffed, wom:buffing, wom:timer_refresh, wom:strenght, wom:redemptioon] for wom:plunder_perdition
+[09Jan2026 15:56:09.066] [main/INFO] [epicfight/]: Data keys [wom:sheath] for wom:satsujin_passive
+[09Jan2026 15:56:09.066] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:timedslash, wom:active, wom:charging, wom:frequency, wom:timer, wom:damage, wom:attacks, wom:charge, wom:saved_charge, wom:timer_refresh, wom:holding_stance, wom:second_draw, wom:stack] for wom:sakura_state
+[09Jan2026 15:56:09.066] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:using_item, wom:zoom, wom:combo, wom:reload_cooldown, wom:shoot, wom:nofalldamage] for wom:ender_blast
+[09Jan2026 15:56:09.067] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:using_item, wom:zoom, wom:combo, wom:reload_cooldown, wom:shoot, wom:nofalldamage, wom:side] for wom:ender_fusion
+[09Jan2026 15:56:09.067] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:parrying, wom:charging_time, wom:combo, wom:gesetz_sprengkopf, wom:holding_stance, wom:charged, wom:guard_point, wom:guard_point_result] for wom:regierung
+[09Jan2026 15:56:09.067] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:timer_refresh, wom:echo, wom:lunar_eclipse_stack, wom:crescent] for wom:lunar_eclipse
+[09Jan2026 15:56:09.067] [main/INFO] [epicfight/]: Data keys [wom:verso, wom:idle] for wom:lunar_echo_passive
+[09Jan2026 15:56:09.067] [main/INFO] [epicfight/]: Data keys [wom:serius_focus_cooldown, wom:darkness_target_hited, wom:darkness_target_reaped, wom:darkness_portal_angle, wom:serius_focus, wom:darkness_target, wom:witherccatharsis, wom:blackhole_active, wom:active, wom:zoom_cooldown, wom:witheraftereffect, wom:shoot, wom:shoot_cooldown, wom:darkness_portal_vec, wom:darkness_target_vec, wom:timer, wom:darkness_activate_portal, wom:blackhole, wom:zoom, wom:darkness_portal_timer, wom:timer_refresh, wom:ascending, wom:blackhole_vec, wom:blackhole_timer] for wom:demonic_ascension
+[09Jan2026 15:56:09.068] [main/INFO] [epicfight/]: Data keys [wom:particle, wom:lapse, wom:catharsis, wom:blink, wom:withercurse, wom:basic_attack, wom:idle] for wom:demon_mark_passive
+[09Jan2026 15:56:09.068] [main/INFO] [epicfight/]: Data keys [wom:heating_speed, wom:stored_heat_level, wom:solar_infernio, wom:timed_attack, wom:heat_level, wom:solar_obscuridad, wom:solar_crematorio, wom:charging, wom:particle, wom:timer, wom:charge, wom:timer_refresh, wom:solar_obscuridad_ta_timer, wom:cycle] for wom:solar_arcano
+[09Jan2026 15:56:09.068] [main/INFO] [epicfight/]: Data keys [wom:heating_speed, wom:stored_heat_level, wom:solar_infernio, wom:timed_attack, wom:heat_level, wom:solar_obscuridad, wom:solar_crematorio, wom:charging, wom:particle, wom:timer, wom:charge, wom:timer_refresh, wom:solar_obscuridad_ta_timer, wom:cycle] for wom:solar_passive
+[09Jan2026 15:56:09.068] [main/INFO] [epicfight/]: Data keys [wom:serius_focus_cooldown, wom:serius_focus] for wom:rechargement
+[09Jan2026 15:56:09.068] [main/INFO] [epicfight/]: Data keys [wom:shell_delay, wom:shell_anim, wom:bullet_loaded, wom:bullet_loaded_old, wom:bullet_overloaded, wom:shell_number, wom:active, wom:super_reload] for wom:napoleon_passive
+[09Jan2026 15:56:09.100] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09Jan2026 15:56:10.625] [main/INFO] [epicfight/]: Data keys [epicfight:combo_counter, epicfight:basic_attack_active] for epicfight:basic_attack
+[09Jan2026 15:56:10.626] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, epicfight:penalty] for epicfight:guard
+[09Jan2026 15:56:10.626] [main/INFO] [epicfight/]: Data keys [epicfight:parry_motion_counter, epicfight:penalty_restore_counter, epicfight:penalty, epicfight:last_active] for epicfight:parrying
+[09Jan2026 15:56:10.626] [main/INFO] [epicfight/]: Data keys [epicfight:penalty_restore_counter, epicfight:penalty] for epicfight:impact_guard
+[09Jan2026 15:56:10.626] [main/INFO] [epicfight/]: Data keys [epicfight:resisting_damage_type, epicfight:stacks, epicfight:tick_record] for epicfight:adaptive_skin
+[09Jan2026 15:56:10.626] [main/INFO] [epicfight/]: Data keys [epicfight:tick_record] for epicfight:adrenaline_fiend
+[09Jan2026 15:56:10.626] [main/INFO] [epicfight/]: Data keys [epicfight:stacks, epicfight:entity_id] for epicfight:bonebreaker
+[09Jan2026 15:56:10.626] [main/INFO] [epicfight/]: Data keys [epicfight:entity_id, epicfight:tick_record] for epicfight:vengeance
+[09Jan2026 15:56:10.627] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:fall_distance] for epicfight:meteor_slam
+[09Jan2026 15:56:10.627] [main/INFO] [epicfight/]: Data keys [epicfight:stacks] for epicfight:revelation
+[09Jan2026 15:56:10.627] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall] for epicfight:demolition_leap
+[09Jan2026 15:56:10.627] [main/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:jump_count, epicfight:jump_key_pressed_last_tick] for epicfight:phantom_ascent
+[09Jan2026 15:56:10.627] [main/INFO] [epicfight/]: Data keys [epicfight:last_hit_count] for epicfight:grasping_spire
+[09Jan2026 15:56:10.627] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu_passive
+[09Jan2026 15:56:10.627] [main/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu
+[09Jan2026 15:56:10.627] [main/INFO] [epicfight/]: Data keys [epicfight:combo_counter] for epicfight:blade_rush
+[09Jan2026 15:56:10.628] [main/INFO] [epicfight/]: Data keys [epicfight:thrown_trident_entity_id] for epicfight:everlasting_allegiance
+[09Jan2026 15:56:10.628] [main/INFO] [epicfight/]: Data keys [wom:target_id] for wom:ender_obscuris
+[09Jan2026 15:56:10.628] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:timer_refresh, wom:dodge] for wom:dodge_master
+[09Jan2026 15:56:10.628] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:registered_position, wom:timer, wom:timer_refresh, wom:dodge, wom:active, wom:registered_health] for wom:time_travel
+[09Jan2026 15:56:10.628] [main/INFO] [epicfight/]: Data keys [wom:cooldown] for wom:punishment_kick
+[09Jan2026 15:56:10.628] [main/INFO] [epicfight/]: Data keys [wom:parrying, epicfight:penalty_restore_counter, epicfight:penalty, wom:consumprion_value, wom:last_active] for wom:counter_attack
+[09Jan2026 15:56:10.628] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:timer, wom:charge, wom:timer_refresh, wom:holding_stance, epicfight:penalty_restore_counter, epicfight:penalty, wom:vengence_duration, wom:consumprion_value] for wom:vengeful_parry
+[09Jan2026 15:56:10.629] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:parrying, wom:charge, epicfight:penalty_restore_counter, epicfight:penalty] for wom:perfect_bulwark
+[09Jan2026 15:56:10.629] [main/INFO] [epicfight/]: Data keys [wom:charge, wom:cycle] for wom:soul_protection
+[09Jan2026 15:56:10.629] [main/INFO] [epicfight/]: Data keys [wom:charge, wom:cycle] for wom:shulker_cloak
+[09Jan2026 15:56:10.629] [main/INFO] [epicfight/]: Data keys [wom:timer, epicfight:penalty_restore_counter, epicfight:penalty, wom:active] for wom:buster_parade
+[09Jan2026 15:56:10.629] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:duree, wom:timer_refresh, wom:active] for wom:pain_anticipation
+[09Jan2026 15:56:10.629] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:duree, wom:timer_refresh, wom:active] for wom:latent_retribution
+[09Jan2026 15:56:10.630] [main/INFO] [epicfight/]: Data keys [wom:power, wom:rate] for wom:critical_knowledge
+[09Jan2026 15:56:10.630] [main/INFO] [epicfight/]: Data keys [wom:max_shield, wom:cooldown, wom:recovery_rate] for wom:heart_shield
+[09Jan2026 15:56:10.630] [main/INFO] [epicfight/]: Data keys [wom:step, wom:saved_elapsed_time, wom:melody_index] for wom:dancing_blade
+[09Jan2026 15:56:10.630] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:duree, wom:timer_refresh, wom:stage, wom:active, wom:cycle] for wom:meditation
+[09Jan2026 15:56:10.630] [main/INFO] [epicfight/]: Data keys [wom:cooldown] for wom:dopamine
+[09Jan2026 15:56:10.630] [main/INFO] [epicfight/]: Data keys [wom:last_active] for wom:manipulator
+[09Jan2026 15:56:10.631] [main/INFO] [epicfight/]: Data keys [wom:power, wom:timer, wom:rate, wom:stack] for wom:lethal_focus
+[09Jan2026 15:56:10.631] [main/INFO] [epicfight/]: Data keys [wom:wall_running, wom:timer, wom:jump_key_up, wom:timer_refresh, wom:angle, wom:wall_glide] for wom:spider_techniques
+[09Jan2026 15:56:10.631] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:diving, wom:jump_key_up, wom:mermaid_movement, wom:consumprion_value, wom:water_dashing, wom:crawling] for wom:aqua_maneuvre
+[09Jan2026 15:56:10.631] [main/INFO] [epicfight/]: Data keys [wom:verso, wom:wall_running, wom:timer, wom:buffing, wom:stage, wom:active, wom:consumprion_value, wom:wall_glide] for wom:natural_sprinter
+[09Jan2026 15:56:10.631] [main/INFO] [epicfight/]: Data keys [wom:timer] for wom:lunatic_vivacity
+[09Jan2026 15:56:10.631] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:registered_health, wom:consumprion_value] for wom:voodoo_magic
+[09Jan2026 15:56:10.632] [main/INFO] [epicfight/]: Data keys [wom:target_distance, wom:target_id] for wom:back_and_forth
+[09Jan2026 15:56:10.632] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:combo] for wom:shooting_style
+[09Jan2026 15:56:10.632] [main/INFO] [epicfight/]: Data keys [wom:timer] for wom:proximity_exploiter
+[09Jan2026 15:56:10.632] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:stack] for wom:all_eyes_on_you
+[09Jan2026 15:56:10.633] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:stack] for wom:all_eyes_on_me
+[09Jan2026 15:56:10.633] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:timer] for wom:avatar_of_might
+[09Jan2026 15:56:10.633] [main/INFO] [epicfight/]: Data keys [wom:attacks, wom:active, wom:stack] for wom:agony_plunge
+[09Jan2026 15:56:10.633] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:charging_time, wom:saved_charge, wom:timer_refresh, wom:charged_attack, wom:charged, wom:active, wom:charging, wom:movespeed] for wom:torment_passive
+[09Jan2026 15:56:10.633] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:timer_refresh, wom:active] for wom:true_berserk
+[09Jan2026 15:56:10.633] [main/INFO] [epicfight/]: Data keys [wom:stack] for wom:herrscher_passive
+[09Jan2026 15:56:10.634] [main/INFO] [epicfight/]: Data keys [wom:verso, wom:expiation, wom:timer, wom:buffed, wom:buffing, wom:timer_refresh, wom:strenght, wom:redemptioon] for wom:plunder_perdition
+[09Jan2026 15:56:10.634] [main/INFO] [epicfight/]: Data keys [wom:sheath] for wom:satsujin_passive
+[09Jan2026 15:56:10.634] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:timedslash, wom:active, wom:charging, wom:frequency, wom:timer, wom:damage, wom:attacks, wom:charge, wom:saved_charge, wom:timer_refresh, wom:holding_stance, wom:second_draw, wom:stack] for wom:sakura_state
+[09Jan2026 15:56:10.634] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:using_item, wom:zoom, wom:combo, wom:reload_cooldown, wom:shoot, wom:nofalldamage] for wom:ender_blast
+[09Jan2026 15:56:10.634] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:using_item, wom:zoom, wom:combo, wom:reload_cooldown, wom:shoot, wom:nofalldamage, wom:side] for wom:ender_fusion
+[09Jan2026 15:56:10.634] [main/INFO] [epicfight/]: Data keys [wom:cooldown, wom:parrying, wom:charging_time, wom:combo, wom:gesetz_sprengkopf, wom:holding_stance, wom:charged, wom:guard_point, wom:guard_point_result] for wom:regierung
+[09Jan2026 15:56:10.634] [main/INFO] [epicfight/]: Data keys [wom:timer, wom:timer_refresh, wom:echo, wom:lunar_eclipse_stack, wom:crescent] for wom:lunar_eclipse
+[09Jan2026 15:56:10.634] [main/INFO] [epicfight/]: Data keys [wom:verso, wom:idle] for wom:lunar_echo_passive
+[09Jan2026 15:56:10.634] [main/INFO] [epicfight/]: Data keys [wom:serius_focus_cooldown, wom:darkness_target_hited, wom:darkness_target_reaped, wom:darkness_portal_angle, wom:serius_focus, wom:darkness_target, wom:witherccatharsis, wom:blackhole_active, wom:active, wom:zoom_cooldown, wom:witheraftereffect, wom:shoot, wom:shoot_cooldown, wom:darkness_portal_vec, wom:darkness_target_vec, wom:timer, wom:darkness_activate_portal, wom:blackhole, wom:zoom, wom:darkness_portal_timer, wom:timer_refresh, wom:ascending, wom:blackhole_vec, wom:blackhole_timer] for wom:demonic_ascension
+[09Jan2026 15:56:10.634] [main/INFO] [epicfight/]: Data keys [wom:particle, wom:lapse, wom:catharsis, wom:blink, wom:withercurse, wom:basic_attack, wom:idle] for wom:demon_mark_passive
+[09Jan2026 15:56:10.635] [main/INFO] [epicfight/]: Data keys [wom:heating_speed, wom:stored_heat_level, wom:solar_infernio, wom:timed_attack, wom:heat_level, wom:solar_obscuridad, wom:solar_crematorio, wom:charging, wom:particle, wom:timer, wom:charge, wom:timer_refresh, wom:solar_obscuridad_ta_timer, wom:cycle] for wom:solar_arcano
+[09Jan2026 15:56:10.635] [main/INFO] [epicfight/]: Data keys [wom:heating_speed, wom:stored_heat_level, wom:solar_infernio, wom:timed_attack, wom:heat_level, wom:solar_obscuridad, wom:solar_crematorio, wom:charging, wom:particle, wom:timer, wom:charge, wom:timer_refresh, wom:solar_obscuridad_ta_timer, wom:cycle] for wom:solar_passive
+[09Jan2026 15:56:10.635] [main/INFO] [epicfight/]: Data keys [wom:serius_focus_cooldown, wom:serius_focus] for wom:rechargement
+[09Jan2026 15:56:10.635] [main/INFO] [epicfight/]: Data keys [wom:shell_delay, wom:shell_anim, wom:bullet_loaded, wom:bullet_loaded_old, wom:bullet_overloaded, wom:shell_number, wom:active, wom:super_reload] for wom:napoleon_passive
+[09Jan2026 15:56:10.720] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23235!/assets/.mcassetsroot' uses unexpected schema
+[09Jan2026 15:56:10.721] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/server-minecraft/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23235!/data/.mcassetsroot' uses unexpected schema
+[09Jan2026 15:56:12.157] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[09Jan2026 15:56:13.657] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:impermeable as it is missing following references: divinerpg:stained_glass2 (from divinerpg-1.10.7.5.jar), 
+	divinerpg:stained_glass3 (from divinerpg-1.10.7.5.jar), 
+	divinerpg:stained_glass4 (from divinerpg-1.10.7.5.jar), 
+	divinerpg:stained_glass5 (from divinerpg-1.10.7.5.jar), 
+	divinerpg:stained_glass6 (from divinerpg-1.10.7.5.jar), 
+	divinerpg:stained_glass7 (from divinerpg-1.10.7.5.jar), 
+	divinerpg:stained_glass8 (from divinerpg-1.10.7.5.jar)
+[09Jan2026 15:56:14.524] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:divinerpg:patchouli
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.0-universal.jar%23240!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.0-universal.jar%23240!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[09Jan2026 15:56:15.302] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:parcool:grant_parcool_guide
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.4.0-universal.jar%23240!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.4.0-universal.jar%23240!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[09Jan2026 15:56:15.535] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe divinerpg:shapeless/guide_book
+com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.0-universal.jar%23240!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23240!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23240!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[09Jan2026 15:56:15.597] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe parcool:parcool_guide
+com.google.gson.JsonSyntaxException: Unknown item 'patchouli:guide_book'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.0-universal.jar%23240!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23240!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.4.0-universal.jar%23240!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[09Jan2026 15:56:15.642] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 18 recipes
+[09Jan2026 15:56:15.776] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3476 advancements
+[09Jan2026 15:56:18.656] [main/INFO] [atomicstryker.dynamiclights.server.ItemLightLevels/]: Clearing item tag to light level mapping cache
+[09Jan2026 15:56:18.772] [main/ERROR] [bettervillage/]: Ice And Fire compatibility is not enabled for Better Village and Ice And Fire is present in your mod list.
+     - Please install the datapack for better compatibility between Better Villages and Ice And Fire.
+     - You can find the datapack URL in the `compatibility` section of the Better Villages description.
+     - URL=https://www.curseforge.com/minecraft/mc-mods/better-village-forge
+[09Jan2026 15:56:20.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[09Jan2026 15:56:20.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[09Jan2026 15:56:20.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[09Jan2026 15:56:20.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[09Jan2026 15:56:20.388] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[09Jan2026 15:56:20.422] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[09Jan2026 15:56:20.515] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09Jan2026 15:56:20.516] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[09Jan2026 15:56:20.516] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09Jan2026 15:56:20.516] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[09Jan2026 15:56:20.537] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[09Jan2026 15:56:20.539] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[09Jan2026 15:56:20.542] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[09Jan2026 15:56:20.550] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/effortlessbuilding-server.toml is not correct. Correcting
+[09Jan2026 15:56:20.550] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Validation was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jan2026 15:56:20.551] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Validation.allowInSurvival was corrected from null to its default, true. 
+[09Jan2026 15:56:20.551] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Validation.useWhitelist was corrected from null to its default, false. 
+[09Jan2026 15:56:20.551] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Validation.whitelist was corrected from null to its default, [Player1, Player2]. 
+[09Jan2026 15:56:20.552] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Validation.maxBlocksPlacedAtOnce was corrected from null to its default, 10000. 
+[09Jan2026 15:56:20.552] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Memory was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jan2026 15:56:20.552] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Memory.undoStackSize was corrected from null to its default, 50. 
+[09Jan2026 15:56:20.757] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[09Jan2026 15:56:20.757] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 glowstone
+[09Jan2026 15:56:20.757] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 2
+[09Jan2026 15:56:20.758] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser identified itemstack 1 torch
+[09Jan2026 15:56:20.758] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.PlayerSelfLightSource/]: item config parser finished, item count: 1
+[09Jan2026 15:56:20.758] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[09Jan2026 15:56:20.759] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 glowstone
+[09Jan2026 15:56:20.759] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 2
+[09Jan2026 15:56:20.759] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser identified itemstack 1 torch
+[09Jan2026 15:56:20.759] [Server thread/INFO] [atomicstryker.dynamiclights.server.modules.DroppedItemsLightSource/]: item config parser finished, item count: 1
+[09Jan2026 15:56:20.776] [Server thread/INFO] [Framework/]: Loading server configs...
+[09Jan2026 15:56:20.790] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[09Jan2026 15:56:20.892] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[09Jan2026 15:56:20.892] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[09Jan2026 15:56:35.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.095s)! For help, type "help"
+[09Jan2026 15:56:35.672] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[09Jan2026 15:56:35.711] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[09Jan2026 15:56:35.711] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[09Jan2026 15:56:35.712] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterfpsdist.json
+[09Jan2026 15:56:35.714] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[09Jan2026 15:56:35.726] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice host is 'one-sailing.gl.at.ply.gg'
+[09Jan2026 15:56:35.726] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at 0.0.0.0:17481
+[09Jan2026 15:57:39.956] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dark_Divinity[/127.36.29.3:60673] logged in with entity id 1 at (-330.4454831860277, 69.0, 1509.243636206349)
+[09Jan2026 15:57:40.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dark_Divinity joined the game
+[09Jan2026 15:57:40.157] [Server thread/INFO] [Jade/]: Syncing config to Dark_Divinity (424b338e-8f0d-34bf-bde8-04e9fdf27416)
+[09Jan2026 15:57:40.338] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3313ms or 66 ticks behind
+[09Jan2026 15:57:42.287] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Dark_Divinity (20)
+[09Jan2026 15:57:42.289] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Dark_Divinity
+[09Jan2026 15:57:42.291] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 424b338e-8f0d-34bf-bde8-04e9fdf27416 was loaded
+[09Jan2026 15:57:42.292] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [Dark_Divinity]
+[09Jan2026 15:57:42.293] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [Dark_Divinity]
+[09Jan2026 15:57:42.646] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.Mob from class divinerpg.entities.vanilla.overworld.EntityAequorea
+[09Jan2026 15:58:10.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dark_Divinity: Set own game mode to Creative Mode]
+[09Jan2026 15:59:56.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dark_Divinity: Set own game mode to Survival Mode]
+[09Jan2026 16:00:30.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dark_Divinity: Set own game mode to Creative Mode]
+[09Jan2026 16:01:13.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dark_Divinity: Set own game mode to Survival Mode]
+[09Jan2026 16:01:32.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dark_Divinity: Set own game mode to Creative Mode]
+[09Jan2026 16:02:25.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dark_Divinity: Set own game mode to Survival Mode]
+[09Jan2026 16:02:41.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dark_Divinity: Set own game mode to Creative Mode]
+[09Jan2026 16:02:42.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dark_Divinity: Set own game mode to Survival Mode]
+[09Jan2026 16:04:27.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dark_Divinity: Set 10 experience points on Dark_Divinity]
+[09Jan2026 16:05:20.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dark_Divinity: Gave 1000 experience points to Dark_Divinity]
